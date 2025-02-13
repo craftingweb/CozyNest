@@ -1,4 +1,4 @@
-import { IoBed } from "react-icons/io5";
+import { FaStore } from "react-icons/fa";
 
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -8,7 +8,7 @@ const Logo = () => {
   return (
     <Button size="icon" asChild>
       <Link href={"/"}>
-        <IoBed className="w-6 h-6" />
+        <FaStore className="w-6 h-6" />
       </Link>
     </Button>
   );
